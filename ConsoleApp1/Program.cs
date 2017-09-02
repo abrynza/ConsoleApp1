@@ -21,7 +21,7 @@ namespace ConsoleApp1
                                           select item;
 
             foreach (var item in query)
-                Console.WriteLine("caseId:" + item.Id + ", caseDetails:" + item.Details);
+                Console.WriteLine("CaseId:" + item.Id + ", CaseDetails:" + item.Details);
         }
     }
 }
